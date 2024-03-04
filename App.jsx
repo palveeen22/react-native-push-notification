@@ -43,7 +43,6 @@ export default function App() {
 	return (
 		<View style={styles.container}>
 			<Text>Your expo push token: {expoPushToken}</Text>
-			<StatusBar style="auto" />
 		</View>
 	);
 }
